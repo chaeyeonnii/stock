@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "bot": "node --env-file=.env bot/index.ts",
+    "bot:test": "node --test \"bot/**/*.test.ts\""
   },
   "dependencies": {
     "next": "16.4.0",
